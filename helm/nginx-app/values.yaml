@@ -1,0 +1,7 @@
+replicaCount: 1
+image:
+  repository: <your-docker-registry>/nginx-app
+  tag: latest
+service:
+  type: ClusterIP
+  port: 80
