@@ -22,8 +22,8 @@ jobs:
 
     - name: Build and Push Docker Image
       run: |
-        docker build -t <your-docker-registry>/nginx-app:latest .
-        docker push <your-docker-registry>/nginx-app:latest
+        docker build -t karthik851/nginx-app:latest .
+        docker push karthik851/nginx-app:latest
 
     - name: Package Helm Chart
       run: |
